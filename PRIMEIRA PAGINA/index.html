@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="" type="image/x-icon">
+   <title>Curiosidades sobre carros</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="/Ionic-Ionicons-Car-sport.512.png" type="image/x-icon">
+</head>
+
+<body>
+   <header>
+      <h1> Ola esse e o meu primeiro site!</h1>
+      <h2>E vou fazer ele sobre uma coisa que eu gosto muito que e carro!</h2>
+      <h2 id="principal">Vou comecar colocando <strong>Duas fotos</strong> de dois carros que eu gosto muito</h2>
+   </header>
+   <main>
+         <picture>
+            <source media="(max-width:750px )" srcset="fotos/supra-p.png">
+            <source media="(max-width:1050px )" srcset="fotos/Supra-m.png">
+            <img src="fotos/Supra-g.png" alt="foto do carro supra">
+         </picture>
+         <br>
+
+         <a href="supra.html" target="_self">
+            <button>saiba mais!</button>
+         </a><!--botao do supra-->
+         <br>
+     
+         <picture>
+            <source media="(max-width:750px )" srcset="fotos/mercedes-p.png">
+            <source media="(max-width:1050px )" srcset="fotos/mercedes-m.png">
+            <img src="fotos/mercedes-g.png" alt="foto do carro mercedes">
+         </picture>
+         <br>
+         <a href="mercedes.html" target="_self">
+            <button>saiba mais!</button>
+         </a><!--botao do mercedes-->
+      <p>escolha sua cor favorita de carro:</p>
+      <input type="color">
+
+      <p>Uma musica legal</p>
+      <audio preload="metadata" controls>
+         <source src="midia/audiolegal.mp3" type="audio/mpeg">
+      </audio>
+      <p>Agora irei mostrar um video muito lindo sobre carros da MC Laren</p>
+      <video poster="fotos/postermclaren.png" width="560" controls>
+         <source src="midia/video-mclaren.mp4.mp4" type="video/mp4">
+         <!--colocar sempre varios source com todos os tipos de video(MP4/M4V/webm/ogv)-->
+      </video>
+      <p>Colocarei outro video so que ele esta no youtube agora</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YAFUyPp_238?si=plYrUbpYYVgoSnlT"
+         title="YouTube video player" frameborder="0"
+         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+   </main>
+   <footer>
+      <section>
+         <p>Contatos:
+            <p class="contatos">Telefone: 32998443005 </p>
+            <p class="contatos">Email: arthurvieira12365@gmail.com<p> 
+         </p>
+         <p id="desenvolvido">Desenvolvido por Arthur Vieira Rebelo<p>
+
+      </section>
+
+   </footer>
+</body>
+
+</html>
