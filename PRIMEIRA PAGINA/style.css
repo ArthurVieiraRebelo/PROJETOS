@@ -19,6 +19,13 @@
 body{
     background-image: linear-gradient( var(--cor02) , var(--cor01));
     font-family: var(--fontnormal);
+    color:white;
+}
+main{
+    margin: 0 10px;
+}
+p{
+    padding: 10px;
 }
 header{
     background-color: var(--cor03);
@@ -37,12 +44,50 @@ header p{
     font-size: 1.1rem;
 }
 img{
-    margin: 1rem 2rem;
+    margin: 1rem 0;
     border: 1px solid black;
     border-radius: 8px;
 }
-button{
-    padding: 5px;
+div#fotos{
+    text-align: center;
+}
+div#fotos button{
+    padding: 5px 10px;
     border: 1px solid black;
-    border-radius: 8px 0 8px 0;
+    border-radius: 10px 0 10px 0;
+    background-color: var(--cor03);
+}
+div#fotos a{
+    text-decoration: none;
+    color: white;
+}
+div#fotos a:hover{
+    text-decoration: underline;
+}
+input{
+    border-radius: 5px;
+
+}
+div#videoyoutube{
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    margin: 0 -10px;
+    padding: 1.5rem;
+}
+iframe{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    margin: 10px 0 0 0;
+
 }

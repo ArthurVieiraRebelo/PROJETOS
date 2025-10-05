@@ -18,26 +18,28 @@
    </header>
    <main>
       <article>
-         <picture>
-            <source media="(max-width:750px )" srcset="fotos/supra-p.png">
-            <source media="(max-width:1050px )" srcset="fotos/Supra-m.png">
-            <img src="fotos/Supra-g.png" alt="foto do carro supra">
-         </picture>
-         <br>
-         <button>
-            <a href="supra.html" target="_self">Saiba Mais!</a>
-         </button>
-         <br>
-         <picture>
-            <source media="(max-width:750px )" srcset="fotos/mercedes-p.png">
-            <source media="(max-width:1050px )" srcset="fotos/mercedes-m.png">
-            <img src="fotos/mercedes-g.png" alt="foto do carro mercedes">
-         </picture>
-         <br>
-         <a href="mercedes.html" target="_self">
-            <button>saiba mais!</button>
-         </a><!--botao do mercedes-->
-         <p>escolha sua cor favorita de carro:</p>
+         <div id="fotos">
+            <picture>
+               <source media="(max-width:750px )" srcset="fotos/supra-p.png">
+               <source media="(max-width:1050px )" srcset="fotos/Supra-m.png">
+               <img src="fotos/Supra-g.png" alt="foto do carro supra">
+            </picture>
+            <br>
+            <button>
+               <a href="supra.html" target="_self">Saiba Mais!</a>
+            </button>
+            <br>
+            <picture>
+               <source media="(max-width:750px )" srcset="fotos/mercedes-p.png">
+               <source media="(max-width:1050px )" srcset="fotos/mercedes-m.png">
+               <img src="fotos/mercedes-g.png" alt="foto do carro mercedes">
+            </picture>
+            <br>
+               <button>
+                  <a href="mercedes.html" target="_self">Saiba Mais!</a>
+               </button>
+         </div>
+         <p>Escolha sua cor favorita de carro:</p>
          <input type="color">
          <p>Uma musica legal</p>
          <audio preload="metadata" controls>
@@ -48,22 +50,18 @@
             <source src="midia/video-mclaren.mp4.mp4" type="video/mp4">
             <!--colocar sempre varios source com todos os tipos de video(MP4/M4V/webm/ogv)-->
          </video>
-         <p>Colocarei outro video so que ele esta no youtube agora</p>
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/YAFUyPp_238?si=plYrUbpYYVgoSnlT"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-         </iframe>
+         <div id="videoyoutube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YAFUyPp_238?si=plYrUbpYYVgoSnlT"
+               title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+         </div>
       </article>
    </main>
    <footer>
-      <p>Contatos:
-      <p class="contatos">Telefone: 32998443005 </p>
-      <p class="contatos">Email: arthurvieira12365@gmail.com
-      <p>
-      </p>
-      <p id="desenvolvido">Desenvolvido por Arthur Vieira Rebelo
-      <p>
+      <p>Desenvolvido por Arthur Vieira Rebelo</p>
+      <p>Contato: (32)998443005</p>
    </footer>
 </body>
 
