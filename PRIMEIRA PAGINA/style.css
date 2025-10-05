@@ -3,12 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root{
-
-    --cor04:#27003D;
-    --cor03:#4F1670;
-    --cor02:#7F41A3;
-    --cor01:#B781D6;
-    --cor00:#ECCCFF;
+    --cor03:#0d1433;
+    --cor02:#171f55;
+    --cor01:#274272;
+    --cor00:#6c90c3;
 
     --font_titulo:"Zalando Sans Expanded", sans-serif;
     --fontnormal: arial,sans-serif, ;
@@ -19,10 +17,11 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(140deg, var(--cor03) 0%, var(--cor02)55%);
+    background-image: linear-gradient( var(--cor02) , var(--cor01));
+    font-family: var(--fontnormal);
 }
 header{
-    background-color: var(--cor02);
+    background-color: var(--cor03);
     width: 100%;
     height: 250px;
     text-align: center;
@@ -32,30 +31,18 @@ header{
 header h1{
     font-size: 2rem;
     padding: 1.5rem;
-    display: inline-flex;
 }
 header p{
     padding:0.5rem;
     font-size: 1.1rem;
 }
-#cabecalho{
-    background-color: var(--cor02);
+img{
+    margin: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 8px;
 }
-div #Menu{
-    display: none;
-}
-div:hover > #Menu{
-    display: block;
-    background-color: var(--cor00);
-    width: 15rem;
-    height: 20rem;
-}
-#Menu, .sobremain{
-    position: absolute;
-}
-.sobremain{
-    z-index: 0;
-}
-#Menu{
-    z-index: 1;
+button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px 0 8px 0;
 }
